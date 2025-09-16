@@ -1,0 +1,52 @@
+
+.custom-footer {
+  padding: 60px 0 20px;
+  background-color: #0f0f15;
+}
+.custom-footer a {
+  color: #bbb;
+  text-decoration: none;
+}
+.custom-footer a:hover {
+  color: #fff;
+}
+.custom-footer .footer-logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+.custom-footer .social-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.custom-footer .social-icons a:hover {
+  background-color: #6c63ff;
+}
+.custom-footer .payment-icons img {
+  height: 30px;
+  margin-right: 10px;
+}
+.footer-bottom {
+  padding-top: 15px;
+  font-size: 14px;
+  color: #888;
+}
+
+.footer-logo {
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+
+.top {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}

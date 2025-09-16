@@ -1,0 +1,42 @@
+.adv{
+    background-image: url("/src/Tour/images/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    margin-top: 120px;
+    border-radius: 20px;
+}
+.take{
+    height: 40px;
+    border-radius: 10px;
+    width:200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.close{
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: #F5F5F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.clear{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDECFB;
+    color: #5e56cb;
+    font-weight: bold;
+}
+.ho:hover{
+    color: #5e56cb;
+}

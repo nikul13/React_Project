@@ -1,0 +1,52 @@
+.img1 {
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+.bg {
+  background-color: #eeeef0;
+  height: 38px;
+  width: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.box2 {
+  height: 40px;
+  width: 90px;
+  background-color: #edecfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: rgb(27, 27, 97);
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 90px;
+  border-radius: 5px;
+}
+.box1:hover {
+  background-color: #edecfb;
+}
+
+
+
+.nav-icons div {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+.nav-icons i {
+  margin-right: 5px;
+}
+.nav-icons img {
+  height: 30px;
+  border-radius: 50%;
+}
