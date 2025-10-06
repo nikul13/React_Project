@@ -1,0 +1,58 @@
+.cab {
+  height: 650px;
+  width: 1200px;
+  margin-top: 100px;
+}
+.bk {
+  height: 400px;
+  padding-top: 30px;
+}
+
+.cab-img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.booking-box {
+  max-width: 420px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.swap-icon {
+  background: #000;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.faq-section {
+  max-width: 800px;
+  margin: 50px auto;
+}
+.faq-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}

@@ -1,0 +1,53 @@
+.m-bg{
+    background-image: url("/public/images/maldiv-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-radius: 20px;
+    
+}
+
+.availability-box1 {
+  position: absolute; /* Take it out of normal flow */
+  bottom: 110px; /* Push it near the bottom of image */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Perfect horizontal center */
+  background: #fff; /* White background */
+  border-radius: 12px;
+  padding-top: 35px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  z-index: 10; /* Ensure it's above the image */
+  width: 80%; /* Adjust as per design */
+  height: 170px;
+}
+.hu-bg{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(246, 27, 27);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.pagination .page-link {
+  color: #333;
+  background-color: #f8f9fa;
+  margin: 0 4px;
+  border-radius: 10px !important;
+  padding: 8px 16px;
+  border: none;
+}
+
+.pagination .page-link:hover {
+  background-color: #e9ecef;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #5a3dff !important; /* purple */
+  border-color: #5a3dff !important;
+  color: #fff !important;
+}

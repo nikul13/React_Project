@@ -1,0 +1,22 @@
+.a-bg{
+    height: 40px;
+    width: 210px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.hero-im{
+    background-image: url("/public/images/t-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.t-s{
+    text-shadow: 3px 2px 2px  white;
+    
+}

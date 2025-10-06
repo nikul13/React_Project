@@ -1,0 +1,46 @@
+.hey{
+    height: 60px;
+    width: 100%;
+    background-color: #CEF2E7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    font-size:20px;
+    margin-top: 20px;
+}
+.place::placeholder{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.mo{
+    border: none;
+    border-left: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.yo{
+    border: none;
+    border-left: 1px solid #ced4da;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top: 1px solid #ced4da;
+    border-right: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+}
+
+.ec::placeholder{
+    padding-left: 5px;
+    font-size: 18px;
+}
+.payment-bg{
+    background-color: #F5F5F6;
+    border-radius: 20px;
+    margin-top: 30px;
+    height: 500px;
+    padding-top: 20px;
+}

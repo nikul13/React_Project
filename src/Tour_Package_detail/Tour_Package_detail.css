@@ -1,0 +1,29 @@
+.tab-btns .nav-link.active {
+      background-color: #6c63ff;
+      color: #fff !important;
+      border-radius: 8px;
+    }
+    .price-card {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .help-card {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .btn-purple {
+      background-color: #6c63ff;
+      color: #fff;
+    }
+    .btn-purple:hover {
+      background-color: #5848d1;
+      color: #fff;
+    }
+
+.bgg{
+    background-color: #7671bf;
+    height: 80px;
+    width: 900px;
+}
