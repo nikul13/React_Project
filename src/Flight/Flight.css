@@ -23,7 +23,7 @@
   align-items: center;
   min-height: 570px;
   width: 100%;
-  max-width: 1200px;   /* keep your original size but responsive */
+  max-width: 1200px; /* keep your original size but responsive */
   border-radius: 20px;
   margin-top: 120px;
   background-image: url("/public/images/airoplane.jpg");
@@ -41,7 +41,7 @@
 .ticket {
   background-color: white;
   width: 100%;
-  max-width: 1100px;   /* allow shrinking */
+  max-width: 1100px; /* allow shrinking */
   min-height: 250px;
   display: flex;
   flex-direction: column;
@@ -53,7 +53,7 @@
 
 .f1 {
   width: 100%;
-  max-width: 230px;  /* still keeps your design */
+  max-width: 230px; /* still keeps your design */
 }
 .btn3 {
   height: 40px;
@@ -93,7 +93,6 @@
   justify-content: center;
   gap: 5px;
 }
-
 
 .row1 {
   display: flex;
@@ -288,48 +287,80 @@
   }
 }
 
-.air{
-    height: 50px;
-    border-radius: 50%;
-    width: 50px;
+.air {
+  height: 50px;
+  border-radius: 50%;
+  width: 50px;
 }
-.airo{
-    height: 70px;
-    margin-top: 30px;
-    padding-left: 60px;
+.airo {
+  height: 70px;
+  margin-top: 30px;
+  padding-left: 60px;
 }
 
-.btn1{
-    background-color: black;
-    width: 150px;
-    height: 50px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;    
-    font-weight: bold;
-    margin-top: 30px;
+.btn1 {
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 30px;
 }
-.bg1{
-    background-color: #F5F5F6;
-    border-radius: 20px;
-    height: 250px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.bg1 {
+  background-color: #f5f5f6;
+  border-radius: 20px;
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.gg{
-    height: 400px;
-    width: 500px;
-    border-radius: 20px;
+.gg {
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
 }
-.r{
+.r {
   display: flex;
   padding-left: 50px;
 }
-.fish{
+.fish {
   height: 160px;
   width: 250px;
   border-radius: 10px;
+}
+
+.suggestions-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: white;
+  border: 1px solid #ddd;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  width: 90%;
+  z-index: 999;
+}
+
+.suggestions-list li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestions-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination .page-item .page-link {
+  color: #007bff;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
 }

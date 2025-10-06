@@ -16,7 +16,7 @@ import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Offers from "./Offers/Offers";
 import HotelDetail from "./HotelDetails/HotelDetails";
-import Flight_list from "./Flight_list/Flight_list";
+// import Flight_list from "./Flight_list/Flight_list";
 import BlogDetail from "./BlogDetail/BlogDetail";
 import Flight_details from "./Flight_details/Flight_details";
 import Navbar from "./Navbar/Navbar";
@@ -44,7 +44,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/offers" element={<Offers />} />
           <Route path="/hoteldetail" element={<HotelDetail />} />
-          <Route path="/flight_list" element={<Flight_list />} />
+          {/* <Route path="/flight_list" element={<Flight_list />} /> */}
           <Route path="/blog" element={<BlogDetail />} />
           <Route path="/flight_details" element={<Flight_details />} />
           <Route path="/navbar" element={<Navbar />} />
